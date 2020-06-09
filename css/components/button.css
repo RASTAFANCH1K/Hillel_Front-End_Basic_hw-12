@@ -1,0 +1,28 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 9px 14px 9px 11px;
+  text-align: center;
+  border: none;
+}
+
+.btn:hover {
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #5094f2;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.btn-primary i {
+  padding-right: 10px;
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}

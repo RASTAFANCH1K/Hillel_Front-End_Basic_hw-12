@@ -1,0 +1,283 @@
+@media (min-width: 480px) {
+  /* main */
+
+  .hero-description h1 {
+    font-size: 30px;
+  }
+
+  .hero-description p {
+    font-size: 22px;
+  }
+
+  .btn {
+    padding: 9px 15px 9px 14px;
+  }
+
+  .btn-primary {
+    font-size: 31px;
+  }
+
+  .btn-primary i {
+    padding-right: 15px;
+    font-size: 34px;
+  }
+
+  .card-description h3 {
+    font-size: 34px;
+  }
+  
+  .card-description p {
+    font-size: 19px;
+  }  
+
+  .shopping-cart {
+    padding-left: 63px;
+    padding-right: 40px;
+  }
+
+  .shopping-cart h2 {
+    font-size: 42px;
+    margin-bottom: 42px;
+  }
+  
+  .shopping-cart-right p {
+    font-size: 17px;
+  }
+  
+  .shopping-cart-right h4 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 640px) {
+  /* main */
+ 
+  .hero-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 22px
+  }
+
+  .hero-img {
+    width: 35%;
+    margin-right: 45px;
+  }
+ 
+  .hero-description {
+    width: 65%;
+    text-align: left;
+  } 
+
+  .card {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 18px;
+  }
+
+  .card-icon {
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+
+  .card-description {
+    text-align: left;
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* header */
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 40px;
+  }
+
+  .header-holder {
+    padding: 24px 0 21px 0;
+  }
+
+  .nav-opener {
+    display: none;
+  }
+
+  .menu {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    position: static;
+    border: none;
+  }
+
+  .menu li {
+    line-height: 1;
+    margin-left: 28px;
+  } 
+
+  .menu a {
+    font-size: 20px;
+    border: none;
+  }
+
+  .menu a:hover {
+    color: #5094f2;
+    background-color: transparent;
+  }
+
+  .menu li.active a {
+    border-bottom: 3px solid #5094f2;
+    padding-bottom: 15px;
+  }
+
+  /* main */
+
+  .main {
+    padding-bottom: 50px;
+  }
+
+  .hero {
+    border-bottom-style: solid;
+    border-image-width: 0 0 15px 0;
+    border-image-source: url(../../images/decore.png);
+    border-image-repeat: repeat;
+    border-image-slice: 0 0 100 0;
+    margin-bottom: 57px;
+  }
+
+  .hero-inner {
+    align-items: center;
+    padding: 38px 0 29px 22px;
+  }
+
+  .hero-img {
+    margin-right: 100px;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
+
+  .hero-description h1 {
+    font-size: 42px;
+  }
+
+  .hero-description p {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    border-radius: 3px;
+    padding: 9px 14px 9px 11px;
+  }
+  
+  .btn-primary {
+    font-size: 22px;
+  }
+  
+  .btn-primary i {
+    padding-right: 10px;
+    font-size: 25px;
+  }
+
+  .cards {
+    padding-bottom: 75px;
+  }
+  
+  .cards-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 -35px;
+  }
+
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+    border: none;
+    margin: 0;
+  }
+
+  .card:not(:first-child) {
+    padding-top: 0;
+  }
+
+  .card-icon {
+    width: 185px;
+    height: 185px;
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
+
+  .card-icon i {
+    font-size: 78px;
+  }
+
+  .card-description {
+    text-align: center;
+    width: 100%;
+  }
+
+  .card-description h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .card-description p {
+    font-size: 14px;
+  }
+
+  .shopping-cart {
+    padding: 0;
+  }
+
+  .shopping-cart h2 {
+    font-size: 42px;
+    text-align: left;
+  }
+
+  .shopping-cart-inner {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .shopping-cart-left {
+    width: 50%;
+    margin: 0 92px 0 0;
+  }
+
+  .shopping-cart-left img {
+    width: 100%;
+  }
+
+  .shopping-cart-right {
+    width: 50%;
+  } 
+
+  .shopping-cart-right h4 {
+    font-size: 26px;
+  } 
+
+  .shopping-cart-right p {
+    font-size: 15px;
+  } 
+
+   /* footer */
+
+   .footer {
+    padding: 32px 0 38px;
+  }
+}
+
+@media (min-width: 960px) {
+  /* main */
+  .shopping-cart-inner {
+    align-items: flex-end;
+  }
+}

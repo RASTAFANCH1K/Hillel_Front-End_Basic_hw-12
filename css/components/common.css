@@ -1,0 +1,96 @@
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 946px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* header */
+
+.header {
+  position: relative;
+}
+
+.header-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 11px 15px 17px
+}
+
+/* main */
+
+.main {
+  padding-bottom: 20px;
+}
+
+.hero {
+  background-image: url(../../images/bg-iphone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 39px;
+}
+
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.hero-description {
+  color: #fff;
+  text-align: center;
+}
+
+.hero-description h1 {
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+
+.hero-description p {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.shopping-cart h2 {
+  font-size: 32px;
+  color: #6f7173;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.shopping-cart-left {
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.shopping-cart-right h4 {
+  font-size: 28px;
+  line-height: 28px;
+  color: #6f7173;
+}
+
+.shopping-cart-right p {
+  font-size: 15px;
+  line-height: 36px;
+}
+
+/* footer */
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 29px 0 31px;
+}
+
+.copyright {
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
